@@ -1,6 +1,6 @@
 let a = [2,3,1]
 let b = [2,9,5,3]
-let mergeArray= function (c,d){
+let mergeArray= (c,d) =>{
     let count = 0
     newArray = []
     for(let i = 0; i < c.length; i++){
